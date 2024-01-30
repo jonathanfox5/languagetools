@@ -1,0 +1,8 @@
+beautifulsoup4==4.12.3
+dropbox==11.36.2
+faster_whisper==0.10.0
+ffmpeg==1.4
+pysrt==1.1.2
+python-dotenv==1.0.1
+Requests==2.31.0
+yt_dlp==2023.12.30

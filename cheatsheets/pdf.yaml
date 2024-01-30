@@ -1,0 +1,9 @@
+highlight-style: tango
+pdf-engine: xelatex
+variables:
+  papersize: a4
+  documentclass: article
+  mainfont: Noto Sans
+  monofont: Consolas NF
+  geometry: margin=2cm
+  fontsize: 11pt
