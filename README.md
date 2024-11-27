@@ -1,5 +1,12 @@
 # Language Tools
 
+## NOTE: PARTIALLY SUPERCEEDED
+A number of the projects in here have been superceeded by my [gogadget](https://github.com/jonathanfox5/gogadget) project and I intend on transferring the functionality of other across.
+
+Please check gogadget first!
+
+## Overview
+
 This is my repository of python and bash tools / cheatsheets that I use for manipulating content for language learning. The purpose of this repo is to provide example code that can be manipulated for your own purposes and hopefully save you some time / make sorting out your content easier.
 
 I have placed global variables the top of most scripts to make it easier to change the parameters. Occasionally, a `.env` file is also used so that I don't accidentally upload my account details to Github. Where a `.env` file is required for a script, I have uploaded a `.env.example` file which you can rename to `.env` and enter your own details.
