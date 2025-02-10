@@ -1,7 +1,7 @@
 # Language Tools
 
 ## NOTE: PARTIALLY SUPERCEEDED
-A number of the projects in here have been superceeded by my [gogadget](https://github.com/jonathanfox5/gogadget) project and I intend on transferring the functionality of other across.
+A number of the projects in here have been superceeded by my [gogadget](https://github.com/jonathanfox5/gogadget) project and I intend on transferring the functionality of others across too.
 
 Please check gogadget first!
 
