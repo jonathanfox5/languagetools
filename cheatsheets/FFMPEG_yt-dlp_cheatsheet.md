@@ -8,8 +8,13 @@ author: Jonathan Fox
 ## Extract audio without re-encoding
 
 ```bash
-ffprobe video.mp4
 ffmpeg -vn -acodec copy -i video.mp4 audio.aac
+```
+
+## Extract video + audio track for a given language
+
+```bash
+ffmpeg -i source.mp4 -map 0:v -map 0:a:m:language:ita -acodec copy -vcodec copy output.mp4
 ```
 
 ## Combine videos without re-encoding
