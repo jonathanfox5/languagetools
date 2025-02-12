@@ -41,6 +41,12 @@ for i in *.ogg; do ffmpeg -i "$i" "${i%.*}.mp3"; done
 rm *.ogg
 ```
 
+## Transcoding low quality content (e.g. video rips)
+
+```bash
+ffmpeg -i original.mp4 -c:v h264_nvenc -rc vbr -cq 30 -sn -c:a libfdk_aac -vbr 3 output.mp4
+```
+
 # yt-dlp
 
 ## Extract audio from youtube video in mp3 format
