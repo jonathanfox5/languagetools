@@ -44,7 +44,7 @@ rm *.ogg
 ## Transcoding low quality content (e.g. video rips)
 
 ```bash
-ffmpeg -i original.mp4 -c:v h264_nvenc -rc vbr -cq 30 -sn -c:a libfdk_aac -vbr 3 output.mp4
+ffmpeg -i original.mp4 -c:v hevc_nvenc -rc vbr -cq 30 -sn -c:a libfdk_aac -vbr 3 output.mp4
 ```
 
 # yt-dlp
