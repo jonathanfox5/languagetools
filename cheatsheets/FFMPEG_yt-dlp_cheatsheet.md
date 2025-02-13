@@ -121,6 +121,19 @@ yt-dlp -F '[youtube_url]'
 - `%(playlist)s` The name of the playlist, if the video is part of a playlist.
 - `%(ext)s` The file extension of the downloaded video or audio file.
 
+# gogadget
+## Run gogadget transcribe individually on each file in a folder (instead of as a batch), using powershell
+
+```powershell
+$path = "."
+
+$files = Get-ChildItem -Path $path -Filter "*.avi"
+
+foreach ($file in $files) {
+    gogadget transcribe -i $file.FullName
+}
+```
+
 # Building this pdf
 
 ```bash
