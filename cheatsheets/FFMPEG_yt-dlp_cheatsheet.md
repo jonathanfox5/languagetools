@@ -47,6 +47,18 @@ rm *.ogg
 ffmpeg -i original.mp4 -c:v hevc_nvenc -rc vbr -cq 30 -sn -c:a libfdk_aac -vbr 3 output.mp4
 ```
 
+# ffmpeg-normalize
+
+https://github.com/slhck/ffmpeg-normalize/
+
+## Normalize all mp3s in a file saving as aac (mac only)
+
+This will be quite compressed, setting for noisy environments.
+
+```bash
+for i in *.mp3; ffmpeg-normalize "$i" -t -14 -tp -1 -c:a aac -ext aac -f -ar 48000 -lrt 4 --dynamic -prf "highpass=f=100";
+```
+
 # yt-dlp
 
 ## Extract audio from youtube video in mp3 format
